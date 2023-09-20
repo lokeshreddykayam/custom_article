@@ -1,0 +1,6 @@
+name: 'Custom Article Creator'
+type: module
+description: 'Custom module to create articles programmatically.'
+core_version_requirement: ^8 || ^9
+package: Custom
+version: 1.0

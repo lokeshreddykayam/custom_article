@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function custom_article_creator_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.custom_article_creator':
+      return '<p>' . t('A custom module to create articles programmatically.') . '</p>';
+  }
+}

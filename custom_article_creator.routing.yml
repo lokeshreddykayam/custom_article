@@ -1,0 +1,7 @@
+custom_article_creator.create_article:
+  path: '/create-article'
+  defaults:
+    _controller: '\Drupal\custom_article_creator\Controller\ArticleCreationController::createArticle'
+    _title: 'Create Article'
+  requirements:
+    _permission: 'access content'
